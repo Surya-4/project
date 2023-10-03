@@ -1,0 +1,71 @@
+
+.main{
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr;
+    column-gap: 3px;
+    max-height: max-content;
+    margin: -7px;
+}
+.box1 img{
+    width: 150px;
+    height: 150px;
+}
+.box1 a{
+    text-decoration: none;
+    color: black;
+}
+.box1 .link{
+    display: flex;
+    gap: 10px;
+}
+.hobbies{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.education,.info,.skills,.experience,.achievements,.hobby,.projects
+{
+    /* width: 200px;
+    height: 200px; */
+    transition:transform 1s;
+}
+.education:hover
+{
+    padding: 5px;
+    background-color: aqua;
+    transform:scale(1,1.1);
+}
+.projects:hover
+{
+    padding: 5px;
+    background-color:cornflowerblue;
+    color: azure;
+    transform: scale(1,1.1);
+}
+.achievements:hover{
+    padding: 5px;
+    background-color: cadetblue;
+    transform: scale(1.3,1.3);
+}
+.hobby:hover{
+    padding: 5px;
+    background-color: chartreuse;
+    color: brown;
+    transform: scale(1,1.3);
+}
+.skills:hover{
+    padding: 5px;
+    background-color: burlywood;
+    transform: scale(1.3,1.3);
+}
+.experience:hover{
+    padding: 5px;
+    background-color:coral;
+    transform: scale(1.3,1.3);
+}
+.info:hover{
+    padding: 5px;
+    background-color: bisque;
+    /* width: 1000px; */
+    transform: scale(1,1.1);
+    /* height: 500px; */
+}
